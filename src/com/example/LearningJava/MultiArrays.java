@@ -4,6 +4,10 @@ public class MultiArrays {
 
     public static void main(String[] args){
 
+        /**
+         * These are multi dimensional arrays or a 2 dimensional array.
+         * Here there are a total of 3 items where each item has 2 sub item.
+         */
         String[][] states = new String[3][2];
         states[0][0] = "California";
         states[0][1] = "Sacramento";

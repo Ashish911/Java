@@ -7,6 +7,9 @@ public class SimpleArrays {
     public static void main (String[] args){
 
         System.out.println("Array of primitives");
+        /**
+         * This is an array of integers.
+         */
         int[] ints = {9,6,3};
         /*Sorting of arrays*/
         Arrays.sort(ints);
@@ -22,6 +25,10 @@ public class SimpleArrays {
         }
 
         System.out.println("Setting an initial size");
+        /**
+         * the no of item available in array is 10. Here this gives a default
+         * value of 0 to 1000.
+         */
         int[] sized = new int[10];
         for (int i = 0; i < sized.length ; i++) {
             sized[i] = i * 100;

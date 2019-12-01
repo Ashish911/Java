@@ -6,9 +6,15 @@ public class ArrayList {
 
     public static void main(String[] args){
 
+        /**
+         * Array lists implements list. Java.util.<> is a diamond operator.
+         */
         /*Array lists can be known as resizable array*/
         List<String> list = new java.util.ArrayList<>();
 
+        /**
+         * Add method is used to add values in the list.
+         */
         list.add("California");
         list.add("Oregon");
         list.add("Washington");
@@ -18,8 +24,12 @@ public class ArrayList {
         list.add("Alaska");
         System.out.println(list);
 
+        /**
+         * Remove method is used to delete values within the list.
+         */
         list.remove(0);
         System.out.println(list);
+
 
         String state = list.get(1);
 

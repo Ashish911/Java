@@ -10,7 +10,7 @@ public class Olive {
     private long color = 0x2E0854;
     private int oil = 3;
 
-    /*Constructor*/
+    /*1st Constructor is only used to satisfy compiler rule*/
     public Olive(){
 
     }

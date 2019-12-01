@@ -6,6 +6,10 @@ public class HashMap {
 
     public static void main(String[] args){
 
+        /**
+         * Here in map there is a key and a value. Hash map is a implementation
+         * of interface map.
+         */
         Map<String, String> map = new java.util.HashMap<>();
         map.put("California", "Sacramento");
         map.put("Kathmandu", "Bafal");
